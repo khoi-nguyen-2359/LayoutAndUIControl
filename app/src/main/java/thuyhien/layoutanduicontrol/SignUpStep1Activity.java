@@ -1,0 +1,26 @@
+package thuyhien.layoutanduicontrol;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class SignUpStep1Activity extends AppCompatActivity {
+    Button btnNext;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_sign_up_step1);
+
+        btnNext = (Button) findViewById(R.id.btnNext);
+        btnNext.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getBaseContext(), SignUpStep2Activity.class);
+                startActivity(intent);
+            }
+        });
+    }
+}

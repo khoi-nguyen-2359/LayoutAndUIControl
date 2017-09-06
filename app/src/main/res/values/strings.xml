@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Step 1</string>
+    <string name="sign_up_2">Step 2</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone number</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="next">Next</string>
+    <string name="your_salary">Your salary: </string>
+    <string name="dollars">dollars</string>
+    <string name="fromDollar">$0</string>
+    <string name="toDollar">$100000</string>
+    <string name="sport_like">Which sport do you like?</string>
+    <string name="football">Football</string>
+    <string name="tennis">Tennis</string>
+    <string name="ping_pong">Ping pong</string>
+    <string name="swimming">Swimming</string>
+    <string name="volleyball">Volleyball</string>
+    <string name="basketball">Basketball</string>
+    <string name="done">DONE</string>
+</resources>
