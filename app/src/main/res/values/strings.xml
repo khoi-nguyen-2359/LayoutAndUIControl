@@ -8,8 +8,7 @@
     <string name="male">Male</string>
     <string name="female">Female</string>
     <string name="next">Next</string>
-    <string name="your_salary">Your salary: </string>
-    <string name="dollars">dollars</string>
+    <string name="your_salary">Your salary: %1$d dollars</string>
     <string name="fromDollar">$0</string>
     <string name="toDollar">$100000</string>
     <string name="sport_like">Which sport do you like?</string>
@@ -20,4 +19,7 @@
     <string name="volleyball">Volleyball</string>
     <string name="basketball">Basketball</string>
     <string name="done">DONE</string>
+    <string name="warning_enter">You must enter %1$s</string>
+    <string name="warning_invalid">%1$s is invalid</string>
+    <string name="warning_select_sport">Please select one sport at least</string>
 </resources>

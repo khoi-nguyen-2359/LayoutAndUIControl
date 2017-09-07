@@ -33,24 +33,37 @@
 
         <TableRow>
 
-            <CheckBox android:text="@string/football" />
+            <CheckBox
+                android:id="@+id/ckbFootball"
+                android:text="@string/football" />
 
-            <CheckBox android:text="@string/tennis" />
+            <CheckBox
+                android:id="@+id/ckbTennis"
+                android:text="@string/tennis" />
 
-            <CheckBox android:text="@string/ping_pong" />
+            <CheckBox
+                android:id="@+id/ckbPingPong"
+                android:text="@string/ping_pong" />
         </TableRow>
 
         <TableRow android:layout_marginTop="@dimen/margin_15">
 
-            <CheckBox android:text="@string/swimming" />
+            <CheckBox
+                android:id="@+id/ckbSwimming"
+                android:text="@string/swimming" />
 
-            <CheckBox android:text="@string/volleyball" />
+            <CheckBox
+                android:id="@+id/ckbVolleyball"
+                android:text="@string/volleyball" />
 
-            <CheckBox android:text="@string/basketball" />
+            <CheckBox
+                android:id="@+id/ckbBasketball"
+                android:text="@string/basketball" />
         </TableRow>
     </TableLayout>
 
     <Button
+        android:id="@+id/btnDone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
